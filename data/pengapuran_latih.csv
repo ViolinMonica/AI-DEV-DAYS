@@ -1,0 +1,31 @@
+study_id,status_baris,ph_awal,dosis_caco3,ph_akhir,tekstur,oc_gkg,asal_dosis,jenis_kapur
+S08,SEBAGIAN,4.964,0.513,5.545,,,"g/kg x CCE 0.93 x 2,4 (asumsi 20 cm, BD 1,2)",Dolomit
+S08,SEBAGIAN,4.964,1.027,5.498,,,"g/kg x CCE 0.93 x 2,4 (asumsi 20 cm, BD 1,2)",Dolomit
+S08,SEBAGIAN,4.964,1.54,5.508,,,"g/kg x CCE 0.93 x 2,4 (asumsi 20 cm, BD 1,2)",Dolomit
+S09,SEBAGIAN,5.2,3.856,5.38,,,"g/kg x CCE 1.785 x 2,4 (asumsi 20 cm, BD 1,2)",Kapur tohor CaO
+S09,SEBAGIAN,5.2,3.826,5.44,,,"g/kg x CCE 1.351 x 2,4 (asumsi 20 cm, BD 1,2)",Kapur hidrat Ca(OH)2
+S09,SEBAGIAN,5.2,3.792,5.5,,,"g/kg x CCE 1.0 x 2,4 (asumsi 20 cm, BD 1,2)",Kalsit CaCO3
+S09,SEBAGIAN,5.2,7.663,5.55,,,"g/kg x CCE 1.086 x 2,4 (asumsi 20 cm, BD 1,2)",Dolomit CaMg(CO3)2
+S10,DIBACA,4.5,1.0,4.7,,6.0,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S10,DIBACA,4.5,2.0,4.9,,6.0,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S14,SEBAGIAN,4.7,0.425,4.8,,,kolom setara CaCO3 (NP dilaporkan),Kapur gerus (85% CaCO3 setara)
+S14,SEBAGIAN,4.7,1.7,4.9,,,kolom setara CaCO3 (NP dilaporkan),Kapur gerus (85% CaCO3 setara)
+S15,SEBAGIAN,5.13,1.0,6.18,clay loam,11.6,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S15,SEBAGIAN,5.13,1.3,6.18,clay loam,11.6,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S15,SEBAGIAN,5.13,2.0,6.27,clay loam,11.6,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S15,SEBAGIAN,5.13,2.6,6.35,clay loam,11.6,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S15,SEBAGIAN,5.13,3.0,6.65,clay loam,11.6,"produk x 1,00 (kalsit, kemurnian tidak dilaporkan)",Kalsit (CaCO3)
+S20,SEBAGIAN,5.09,1.488,5.1,,,"produk x 0,93 (NP dolomit tidak dilaporkan)",Dolomit
+S20,SEBAGIAN,5.09,2.976,5.9,,,"produk x 0,93 (NP dolomit tidak dilaporkan)",Dolomit
+S22,SEBAGIAN,4.51,0.55,4.76,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S22,SEBAGIAN,4.51,1.1,4.82,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S22,SEBAGIAN,4.51,1.65,4.96,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S22,SEBAGIAN,4.44,0.55,4.54,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S22,SEBAGIAN,4.44,1.1,4.91,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S22,SEBAGIAN,4.44,1.65,4.53,,20.8,kolom setara CaCO3 (NP dilaporkan),CaCO3 (kapur pertanian; kemurnian tidak dinyatakan)
+S32,SEBAGIAN,5.51,0.982,5.6,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"
+S32,SEBAGIAN,5.51,1.965,5.8,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"
+S32,SEBAGIAN,5.51,2.947,5.9,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"
+S32,SEBAGIAN,5.77,0.982,6.02,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"
+S32,SEBAGIAN,5.77,1.965,6.03,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"
+S32,SEBAGIAN,5.77,2.947,6.09,,,kolom setara CaCO3 (NP dilaporkan),"Dolomit (CaO sekitar 30%, MgO sekitar 18%)"

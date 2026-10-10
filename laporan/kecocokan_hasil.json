@@ -1,0 +1,209 @@
+{
+ "n_titik_fitur": 484,
+ "n_berlabel": 370,
+ "n_provinsi": 36,
+ "median_share": 0.012058859142080084,
+ "cv_spasial": {
+  "Logistic regression": {
+   "roc_auc": 0.6504489284661699,
+   "pr_auc": 0.6570097886685943,
+   "brier": 0.2491174518870202,
+   "spearman_share": 0.2720574325735765,
+   "roc_auc_sd": 0.028339183707775502
+  },
+  "XGBoost": {
+   "roc_auc": 0.6794326076222628,
+   "pr_auc": 0.6554293351957938,
+   "brier": 0.23943191400485805,
+   "spearman_share": 0.3201784035476215,
+   "roc_auc_sd": 0.06488256648870197
+  },
+  "XGBoost, pH monoton": {
+   "roc_auc": 0.649005104091311,
+   "pr_auc": 0.6205529518152757,
+   "brier": 0.2442219079672677,
+   "spearman_share": 0.27945263754994204,
+   "roc_auc_sd": 0.07670603707529314
+  },
+  "Aturan (skor_aturan)": {
+   "roc_auc": 0.44380715070370247,
+   "pr_auc": 0.4839460494209276,
+   "brier": 0.26690289194381217,
+   "spearman_share": -0.11939082305384714,
+   "roc_auc_sd": 0.050781109994598256
+  },
+  "Acak": {
+   "roc_auc": 0.47932328208190284,
+   "pr_auc": 0.5259679232542991,
+   "brier": 0.33983089887321843,
+   "spearman_share": -0.07167147572829488,
+   "roc_auc_sd": 0.07083819525322504
+  }
+ },
+ "cv_spasial_label_intensitas": {
+  "Logistic regression": {
+   "roc_auc": 0.7249711471478713,
+   "pr_auc": 0.713079921326986,
+   "brier": 0.22802117264301996,
+   "spearman_share": 0.45405193647281905,
+   "roc_auc_sd": 0.14874331523075937
+  },
+  "XGBoost": {
+   "roc_auc": 0.745427885937414,
+   "pr_auc": 0.7226096876935244,
+   "brier": 0.21169103112730606,
+   "spearman_share": 0.46694991891218773,
+   "roc_auc_sd": 0.11971185427452674
+  },
+  "XGBoost, pH monoton": {
+   "roc_auc": 0.7334807923222171,
+   "pr_auc": 0.7046059540746683,
+   "brier": 0.21514755827620874,
+   "spearman_share": 0.4474470973522363,
+   "roc_auc_sd": 0.1111232455388669
+  },
+  "Aturan (skor_aturan)": {
+   "roc_auc": 0.750531476992457,
+   "pr_auc": 0.7194554931527032,
+   "brier": 0.20881228827578707,
+   "spearman_share": NaN,
+   "roc_auc_sd": 0.11319277193159537
+  },
+  "Acak": {
+   "roc_auc": 0.5249700689006497,
+   "pr_auc": 0.5362491972756785,
+   "brier": 0.3210408322463865,
+   "spearman_share": 0.034990337433709995,
+   "roc_auc_sd": 0.049141755813774946
+  }
+ },
+ "auc_terbaik": "XGBoost",
+ "topk_cabai": {
+  "n_sentra": 37,
+  "top3_aturan": 0.08108108108108109,
+  "top3_hibrida": 0.32432432432432434,
+  "top3_acak": 0.3
+ },
+ "model_terpilih": "XGBoost, pH monoton",
+ "hibrida_cv": {
+  "roc_auc_share": {
+   "aturan": 0.44380715070370247,
+   "hibrida": 0.544142945177428
+  },
+  "roc_auc_intensitas": {
+   "aturan": 0.750531476992457,
+   "hibrida": 0.701605136419338
+  },
+  "spearman_share": {
+   "aturan": -0.0675086670002022,
+   "hibrida": 0.06587156126413513
+  }
+ },
+ "p_acuan": 0.5,
+ "uji_ph": {
+  "n_titik": 71,
+  "n_skor_turun": 0
+ },
+ "validasi_provinsi": {
+  "aturan": {
+   "n_provinsi": 37,
+   "per_tanaman": {
+    "singkong": {
+     "spearman": 0.016042780748663103,
+     "top3_di_5_sentra": 0
+    },
+    "ubi_jalar": {
+     "spearman": -0.05180914198752128,
+     "top3_di_5_sentra": 5
+    },
+    "jagung": {
+     "spearman": -0.08321479374110952,
+     "top3_di_5_sentra": 4
+    },
+    "kacang_tanah": {
+     "spearman": 0.21858288770053477,
+     "top3_di_5_sentra": 2
+    },
+    "kacang_hijau": {
+     "spearman": 0.24832887700534761,
+     "top3_di_5_sentra": 0
+    }
+   },
+   "top3_sentra": 0.44,
+   "top3_acak": 0.3,
+   "provinsi_tak_cocok": [
+    "DKI Jakarta"
+   ]
+  },
+  "skor_akhir": {
+   "n_provinsi": 37,
+   "per_tanaman": {
+    "singkong": {
+     "spearman": 0.016042780748663103,
+     "top3_di_5_sentra": 0
+    },
+    "ubi_jalar": {
+     "spearman": -0.05180914198752128,
+     "top3_di_5_sentra": 4
+    },
+    "jagung": {
+     "spearman": -0.08321479374110952,
+     "top3_di_5_sentra": 4
+    },
+    "kacang_tanah": {
+     "spearman": 0.21858288770053477,
+     "top3_di_5_sentra": 0
+    },
+    "kacang_hijau": {
+     "spearman": 0.24832887700534761,
+     "top3_di_5_sentra": 0
+    }
+   },
+   "top3_sentra": 0.32,
+   "top3_acak": 0.3,
+   "provinsi_tak_cocok": [
+    "DKI Jakarta"
+   ]
+  }
+ },
+ "sd_ph_soilgrids_median": 0.8814589665653494,
+ "cv_hujan_median": 0.14124291071479744,
+ "rentang_fitur": {
+  "ph": [
+   4.7,
+   6.5
+  ],
+  "temp_c": [
+   19.511400000000002,
+   27.8441
+  ],
+  "elevation_m": [
+   2.69,
+   1207.44
+  ],
+  "rainfall_mm": [
+   1171.59,
+   5311.93
+  ],
+  "rain_wet3": [
+   541.07,
+   1763.72
+  ],
+  "rain_dry3": [
+   44.38,
+   1012.0100000000002
+  ],
+  "bulan_kering": [
+   0.0,
+   7.0
+  ],
+  "sand_persen": [
+   19.076,
+   53.13700000000001
+  ],
+  "clay_persen": [
+   24.283,
+   48.531
+  ]
+ }
+}

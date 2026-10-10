@@ -1,0 +1,154 @@
+{
+ "n_baris_1c": 109,
+ "status_1c": {
+  "SEBAGIAN": 106,
+  "DIBACA": 3
+ },
+ "n_latih": 30,
+ "baris_per_studi": {
+  "S08": 3,
+  "S09": 4,
+  "S10": 2,
+  "S14": 2,
+  "S15": 5,
+  "S20": 2,
+  "S22": 6,
+  "S32": 6
+ },
+ "status_latih": {
+  "SEBAGIAN": 28,
+  "DIBACA": 2
+ },
+ "dibuang": {
+  "S01": "pH akhir tidak diambil",
+  "S12": "tidak ada pH akhir (hanya hasil umbi)",
+  "S13": "pH KCl, tidak boleh dicampur dengan pH H2O",
+  "S21": "tidak ada pH",
+  "S23": "tidak ada pH akhir",
+  "S24": "sekunder, tanpa pH",
+  "S33": "dosis absolut tidak dilaporkan",
+  "S34": "tidak ada pH akhir",
+  "S35": "duplikat sekunder dari S12, tanpa pH",
+  "S36": "dosis hanya sebagai kelipatan Al-dd (faktor konversi tidak baku)"
+ },
+ "rentang_dosis_caco3": [
+  0.425,
+  7.663
+ ],
+ "oc_median_gkg": 11.6,
+ "loso_ph": {
+  "A. pH tidak berubah": {
+   "rmse": 0.5918235378894625,
+   "mae": 0.4566333333333334,
+   "mae_per_studi": 0.4276875,
+   "monoton": true,
+   "bisa_dibalik": false,
+   "ph_maks_di_grid": 6.0,
+   "terbatas": true
+  },
+  "B. Rumus tanpa training": {
+   "rmse": 0.6404681626966733,
+   "mae": 0.5068100307058095,
+   "mae_per_studi": 0.5072622216441814,
+   "monoton": true,
+   "bisa_dibalik": true,
+   "ph_maks_di_grid": 7.8,
+   "terbatas": true
+  },
+  "C1. Parametrik, fit k": {
+   "rmse": 0.5684721672086779,
+   "mae": 0.4099325673912855,
+   "mae_per_studi": 0.3692058681681418,
+   "monoton": true,
+   "bisa_dibalik": true,
+   "ph_maks_di_grid": 7.76,
+   "terbatas": true
+  },
+  "C2. Parametrik, fit k dan plafon": {
+   "rmse": 0.5351917110386205,
+   "mae": 0.39742167495136005,
+   "mae_per_studi": 0.3616204434682805,
+   "monoton": true,
+   "bisa_dibalik": true,
+   "ph_maks_di_grid": 6.8,
+   "terbatas": true
+  },
+  "C3. Parametrik, k median per studi": {
+   "rmse": 0.48342166432527417,
+   "mae": 0.36867787424419035,
+   "mae_per_studi": 0.3368164492527248,
+   "monoton": true,
+   "bisa_dibalik": true,
+   "ph_maks_di_grid": 7.77,
+   "terbatas": true
+  },
+  "D1. Regresi linear": {
+   "rmse": 0.6881333195199725,
+   "mae": 0.5758310295495003,
+   "mae_per_studi": 0.4946226647544496,
+   "monoton": true,
+   "bisa_dibalik": true,
+   "ph_maks_di_grid": 6.78,
+   "terbatas": true
+  },
+  "D2. Regresi polinomial": {
+   "rmse": 1.7315220090653531,
+   "mae": 0.8397830673965309,
+   "mae_per_studi": 0.758524699917928,
+   "monoton": false,
+   "bisa_dibalik": false,
+   "ph_maks_di_grid": 7.21,
+   "terbatas": true
+  },
+  "E. XGBoost monoton": {
+   "rmse": 0.6232786759412279,
+   "mae": 0.5109333068847656,
+   "mae_per_studi": 0.47151566720008853,
+   "monoton": true,
+   "bisa_dibalik": false,
+   "ph_maks_di_grid": 6.02,
+   "terbatas": true
+  }
+ },
+ "model_terpilih": "C3. Parametrik, k median per studi",
+ "parametrik_k": 2.5624968070307954,
+ "parametrik_plafon": 7.8,
+ "c1_k": 2.7209539405915018,
+ "k_per_studi": {
+  "S08": 1.0192255649375004,
+  "S09": 9.443114265066315,
+  "S10": 2.8806281278880217,
+  "S14": 4.152792948240443,
+  "S15": 0.5499236858437611,
+  "S20": 2.2443654861735696,
+  "S22": 1.8424348242206328,
+  "S32": 3.7930433962154426
+ },
+ "sensitivitas_k": {
+  "tanpa S09": 1.5562861409575799,
+  "tanpa S08 dan S09": 1.613717744013881,
+  "median k per studi": 2.5624968070307954
+ },
+ "c2_k": 2.163997244197906,
+ "c2_plafon": 6.800000000000001,
+ "n_al": 60,
+ "loso_al": {
+  "Rumus brief (2,0 x (5,5-pH)^1,3)": {
+   "rmse": 1.4072887165306265,
+   "mae": 0.9782825588417674,
+   "mae_per_studi": 1.110459155544981
+  },
+  "Fit a dan b (p0 = 5,5)": {
+   "rmse": 1.3892270211969888,
+   "mae": 1.0074637382857654,
+   "mae_per_studi": 0.9840922013688745
+  },
+  "Rata-rata (tanpa pH)": {
+   "rmse": 1.4435474757443918,
+   "mae": 1.1594505686337397,
+   "mae_per_studi": 1.1702290456588922
+  }
+ },
+ "al_fit_a": 2.4732458262828785,
+ "al_fit_b": 0.44983643258099987
+}

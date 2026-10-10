@@ -1,0 +1,19 @@
+0 sudah ada, 514 akan ditarik
+0 Kabupaten Aceh Selatan 5.4 clay loam
+  File "C:\Users\violi\OneDrive\Dokumen\devdays\AI-DEV-DAYS\tarik_fitur.py", line 128
+    f.write(json.dumps(k, ensure_ascii=False) + "
+                                                ^
+SyntaxError: unterminated string literal (detected at line 128)
+9 sudah ada, 505 akan ditarik
+10 sudah ada, 504 akan ditarik
+88 sudah ada, 426 akan ditarik
+GAGAL 72.03 Kabupaten Donggala TimeoutError('The read operation timed out')
+GAGAL 35.16 Kabupaten Mojokerto TimeoutError('The read operation timed out')
+GAGAL 14.05 Kabupaten Pelalawan TimeoutError('The read operation timed out')
+GAGAL 35.06 Kabupaten Kediri <HTTPError 503: 'Service Temporarily Unavailable'>
+GAGAL 18.09 Kabupaten Pesawaran TimeoutError('The read operation timed out')
+GAGAL 53.06 Kabupaten Flores Timur TimeoutError('The read operation timed out')
+GAGAL 32.10 Kabupaten Majalengka TimeoutError('The read operation timed out')
+GAGAL 32.06 Kabupaten Tasikmalaya TimeoutError('The read operation timed out')
+GAGAL 81.07 Kabupaten Kepulauan Aru TimeoutError('The read operation timed out')
+selesai

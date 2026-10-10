@@ -1,0 +1,15 @@
+{
+ "ph": 4.8,
+ "ph_q05": 3.7,
+ "ph_q95": 6.4,
+ "sand_persen": 27.1,
+ "silt_persen": 31.3,
+ "clay_persen": 41.6,
+ "organic_carbon_gkg": 189.4,
+ "nitrogen_gkg": 2.37,
+ "soil_texture": "clay",
+ "geser_tanah": [
+  0,
+  0
+ ]
+}
